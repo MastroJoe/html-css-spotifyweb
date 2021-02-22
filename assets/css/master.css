@@ -31,9 +31,9 @@ header {
 }
 
 .btn-upgrade {
-  width: 180px;
-  height: 30px;
-  border: 1px solid white;
+  width: 210px;
+  height: 40px;
+  border: 2px solid white;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -41,10 +41,9 @@ header {
 }
 
 .btn-upgrade > span {
-  color: #fff;
-  font-size: 10px;
+  font-size: 13px;
   text-transform: uppercase;
-  font-weight: 700;
+  color: #ffffff;
 }
 
 /* MAIN */

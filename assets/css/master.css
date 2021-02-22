@@ -50,7 +50,7 @@ header {
 main {
   height: calc(100vh - 80px);
   display: flex;
-  background-color: blue;
+  background-color: rgb(14, 37, 87);
 }
 
 /* ASIDE BAR */

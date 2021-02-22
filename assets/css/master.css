@@ -1,0 +1,98 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 70px;
+  margin-right: 20px;
+  width: calc(100vw - 270px);
+  background-color: #000000;
+}
+
+/* MAIN */
+main {
+  height: calc(100vh - 80px);
+  display: flex;
+  background-color: blue;
+}
+
+/* ASIDE BAR */
+aside {
+  height: 100%;
+  width: 250px;
+  background-color: #000000;
+}
+
+.logo-spotify > img {
+  width: 70%;
+}
+
+.txt-sidebar {
+  padding: 10px 0;
+}
+
+.txt-sidebar > img {
+  width: 10%;
+  vertical-align: middle;
+}
+
+.txt-sidebar > p {
+  font-size: 10px;
+  font-weight: 700;
+  color: #b3b3b3;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.playlist {
+  height: 230px;
+  overflow-y: auto;
+  background-color: gray;
+}
+
+.title-playlist > h3 {
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.txt-playlist {
+  padding: 5px 0;
+}
+
+.txt-playlist > img {
+  width: 20%;
+  vertical-align: middle;
+}
+
+/* MAIN CONTENT SECTIONS */
+.content {
+  width: calc(100% - 250px);
+  overflow-y: auto;
+}
+
+.content > section {
+  height: 300px;
+  margin: 40px 0;
+  background-color: yellow;
+}
+
+/* FOOTER */
+footer {
+  height: 80px;
+  background-color: gray;
+}
+
+footer > section{
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;

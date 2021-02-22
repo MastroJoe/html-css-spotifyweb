@@ -18,7 +18,33 @@ header {
   height: 70px;
   margin-right: 20px;
   width: calc(100vw - 270px);
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.upgrade {
+  width: calc(100vw - 273px);
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+}
+
+.btn-upgrade {
+  width: 180px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-upgrade > span {
+  color: #fff;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 /* MAIN */

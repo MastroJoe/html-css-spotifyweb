@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: normal;
+  text-transform: none;
 }
 
 /* HEADER */
@@ -30,6 +35,10 @@ aside {
   background-color: #000000;
 }
 
+.sidebar {
+  padding-left: 20px;
+}
+
 .logo-spotify > img {
   width: 70%;
 }
@@ -39,38 +48,82 @@ aside {
 }
 
 .txt-sidebar > img {
-  width: 10%;
+  width: 11%;
   vertical-align: middle;
 }
 
 .txt-sidebar > p {
-  font-size: 10px;
-  font-weight: 700;
   color: #b3b3b3;
+  font-size: 15px;
   display: inline-block;
   vertical-align: middle;
   margin: 0;
 }
 
 .playlist {
-  height: 230px;
+  height: 395px;
   overflow-y: auto;
-  background-color: gray;
 }
 
 .title-playlist > h3 {
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 600;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 .txt-playlist {
   padding: 5px 0;
+  color: #fff;
+  opacity: .7;
+  background-color: transparent;
+  border: none;
 }
 
 .txt-playlist > img {
   width: 20%;
   vertical-align: middle;
+}
+
+#playlist-plus {
+  padding-left: 9px;
+}
+
+.txt-playlist-2 > li {
+  color: #b3b3b3;
+  padding: 12px 0;
+}
+
+.install {
+  padding-top: 55px;
+}
+
+.install > i {
+  font-size: 15px;
+}
+
+.install > p {
+font-size: 12px;
+margin: 0;
+display: inline;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 25px;
+}
+
+.profile > i {
+  font-size: 22px;
+}
+
+.profile > p {
+  display: inline;
+  color: #ffffff;
+  margin: 0;
+  font-size: 15px;
+
 }
 
 /* MAIN CONTENT SECTIONS */

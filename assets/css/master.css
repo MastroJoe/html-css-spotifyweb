@@ -273,7 +273,6 @@ hr {
 }
 
 /* CREATO PER */
-
 .padding-top {
   padding-top: 30px;
 }
@@ -289,6 +288,9 @@ hr {
 }
 
 /* ARTISTI PIU POPOLARI */
+.radius {
+  border-radius: 100px;
+}
 
 /* FOOTER */
 footer {
@@ -306,3 +308,42 @@ footer > section {
   display: flex;
   justify-content: space-between;
 }
+
+/* SECTION RIGHT */
+.right {
+  margin: 0;
+  padding: 0 4px;
+  width: 250px;
+}
+
+.content-right {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.right img {
+  width: 50px;
+  margin: 0 10px;
+}
+
+.text-right {
+  padding: 0px 10px;
+}
+
+.title-song {
+  display: inline;
+  color: #ffffff;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.author-song {
+  font-size: 15px;
+  color: #b3b3b3;
+  margin: 0;
+}
+
+/* SECTION CENTRAL */

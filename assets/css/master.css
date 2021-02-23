@@ -200,14 +200,15 @@ hr {
 }
 
 /* RECENTLY */
-.txt-recently {
+.title-section {
   padding: 6px;
 }
 
-.txt-recently h2{
+.title-section h2{
   font-size: 24px;
   font-weight: 600;
   color: #ffffff;
+  margin: 0;
 }
 
 .wall {
@@ -270,6 +271,24 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* CREATO PER */
+
+.padding-top {
+  padding-top: 30px;
+}
+
+.padding-author {
+  padding: 10px 0;
+}
+
+.album-creato-per {
+  width: calc(33%/2 - 15px);
+  margin: 7px;
+  text-align: center;
+}
+
+/* ARTISTI PIU POPOLARI */
 
 /* FOOTER */
 footer {

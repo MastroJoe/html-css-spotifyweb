@@ -10,6 +10,11 @@
   text-transform: none;
 }
 
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
 /* HEADER */
 header {
   position: fixed;
@@ -297,54 +302,107 @@ hr {
 footer {
   height: 80px;
   background-color: #222326;
-  /* position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 100%; */
-}
-
-footer > section {
-  width: 100vw;
-  height: 80px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 /* SECTION LEFT */
-.left {
-  margin: 0;
-  padding: 0 4px;
-  width: 250px;
+.foot-left {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.content-left {
-  height: 100%;
-  width: 100%;
+.foot-left img {
+  width: 50px;
+
+}
+
+.song {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.song h4 {
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.song p {
+  color: #6D6F74;
+  font-size: 12px;
+}
+
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 30px;
+}
+
+.icon a {
+  color: #6D6F75;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.icon a:hover {
+  color: #ffffff;
+}
+
+/* SECTION CENTRAL */
+
+/* CONTROLS */
+.play-section a {
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+  left: 100px;
+  vertical-align: middle;
+  font-size: 20px;
+  padding: 25px;
+}
+
+/* TIMEBAR */
+.timebar {
   display: flex;
   align-items: center;
 }
 
-.left img {
-  width: 50px;
-  margin: 0 10px;
-}
-
-.text-left {
-  padding: 0px 10px;
-}
-
-.title-song {
-  display: inline;
+.timebar a {
+  text-decoration: none;
   color: #ffffff;
-  margin: 0;
   font-size: 12px;
-  font-weight: 700;
 }
 
-.author-song {
-  font-size: 15px;
-  color: #b3b3b3;
-  margin: 0;
+.timebar div:first-of-type {
+  height: 4px;
+  background-color: #ffffff;
+  width: 100px;
+  margin-left: 30px;
+  border-radius: 5px;
 }
 
-/* SECTION CENTRAL */
+.timebar:hover div:first-of-type {
+  background-color: #1DB954;
+}
+
+.fa-circle {
+  display: none;
+}
+
+.timebar:hover .fa-circle {
+  display: block;
+  color: #ffffff;
+}
+
+.timebar div:last-of-type {
+  height: 4px;
+  background-color: #6D6F74;
+  width: 330px;
+  margin-right: 30px;
+  border-radius: 5px;
+}

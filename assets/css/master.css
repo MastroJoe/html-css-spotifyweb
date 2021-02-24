@@ -204,7 +204,7 @@ hr {
   padding: 6px;
 }
 
-.title-section h2{
+.title-section h2 {
   font-size: 24px;
   font-weight: 600;
   color: #ffffff;
@@ -262,7 +262,7 @@ hr {
   margin: 0;
 }
 
-.overlay > .far {
+.overlay > i {
   color: #ffffff;
   opacity: 2.5;
   font-size: 60px;
@@ -281,7 +281,7 @@ hr {
   padding: 10px 0;
 }
 
-.album-creato-per {
+.album-2 {
   width: calc(33%/2 - 15px);
   margin: 7px;
   text-align: center;
@@ -309,26 +309,26 @@ footer > section {
   justify-content: space-between;
 }
 
-/* SECTION RIGHT */
-.right {
+/* SECTION LEFT */
+.left {
   margin: 0;
   padding: 0 4px;
   width: 250px;
 }
 
-.content-right {
+.content-left {
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-.right img {
+.left img {
   width: 50px;
   margin: 0 10px;
 }
 
-.text-right {
+.text-left {
   padding: 0px 10px;
 }
 

@@ -67,6 +67,7 @@ aside {
 
 .sidebar {
   padding-left: 20px;
+  position: relative;
 }
 
 .logo-spotify > img {
@@ -196,7 +197,7 @@ hr {
 .menu-nav ul li hr {
   margin: 0 auto;
   border-top: 3px solid #141a26;
-}
+}wall
 
 .menu-nav ul li:hover hr{
   display: block;
@@ -391,7 +392,7 @@ footer {
 }
 
 .timebar:hover div:first-of-type {
-  background-color: #1DB954;
+  background-color: #19c255;
 }
 
 .fa-circle {
@@ -423,6 +424,10 @@ footer {
   padding-right: 20px;
 }
 
+.foot-right:hover div:first-of-type {
+  background-color: #19c255;
+}
+
 .foot-right div:first-of-type {
   height: 4px;
   background-color: #ffffff;
@@ -430,6 +435,104 @@ footer {
   border-radius: 5px;
 }
 
-.foot-right:hover div:first-of-type {
-  background-color: #1DB954;
+
+
+/* MEDIA QUERY */
+
+@media all and (max-width: 1200px)
+and (min-width: 992px) {
+  .wall {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .album{
+    width: calc(100%/12 * 3);
+  }
+
+  .cover img{
+    width: 100%;
+  }
+}
+
+
+@media all and (max-width: 992px)
+and (min-width: 768px){
+  .wall{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .album {
+    width: calc(100%/12 * 3);
+  }
+
+  .album-2 {
+    width: calc(100%/12 * 2);
+  }
+
+  .play-section a:nth-child(3){
+    font-size: 25px;
+  }
+
+  .play-section .fa-play-circle:hover{
+    font-size: 30px;
+  }
+
+  .timebar div:first-of-type{
+    width: 50px;
+    margin-left: 10px;
+  }
+
+  .timebar div:last-of-type{
+    width: 190px;
+    margin-right: 10px;
+  }
+
+  .foot-right div:first-of-type{
+    height: 3px;
+    background-color: #ffffff;
+    width: 20px;
+    border-radius: 5px;
+  }
+
+  .foot-right div:last-of-type{
+    height: 3px;
+    background-color: #6D6F74;
+    width: 60px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .foot-right a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 10px;
+  }
+}
+
+@media all and (max-width: 580px) {
+  .play-section a:nth-child(3){
+    font-size: 20px;
+  }
+
+  .play-section .fa-play-circle:hover{
+    font-size: 25px;
+  }
+
+  .timebar div:first-of-type{
+    width: 30px;
+    margin-left: 5px;
+  }
+
+  .timebar div:last-of-type{
+    width: 90px;
+    margin-right: 5px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .song{
+    display: none;
+  }
 }

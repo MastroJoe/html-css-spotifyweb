@@ -370,6 +370,10 @@ footer {
   padding: 25px;
 }
 
+.play-section a:hover {
+  color: #ffffff;
+}
+
 .fa-play-circle {
   font-size: 30px;
 }
@@ -384,6 +388,10 @@ footer {
   text-decoration: none;
   color: #ffffff;
   font-size: 12px;
+}
+
+.timebar a:hover i {
+  color: #ffffff;
 }
 
 .timebar div:first-of-type {

@@ -250,10 +250,9 @@ hr {
   right: 0;
   opacity: 0;
   transition: .4s ease;
-  height: 178.11px;
 }
 
-.cover:hover .overlay{
+.cover:hover .overlay {
   background-color: #000;
   opacity: 0.7;
 }
@@ -357,6 +356,10 @@ footer {
 /* SECTION CENTRAL */
 
 /* CONTROLS */
+.play-section {
+  padding-bottom: 10px;
+}
+
 .play-section a {
   text-decoration: none;
   color: #ffffff;

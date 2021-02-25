@@ -154,7 +154,6 @@ hr {
   color: #ffffff;
   margin: 0;
   font-size: 15px;
-
 }
 
 /* MAIN CONTENT SECTIONS */
@@ -181,25 +180,25 @@ hr {
   background-color:  #141a26;
 }
 
-.menu-nav ul {
+.txt-nav ul {
   display: flex;
   list-style: none;
   justify-content: center;
 }
 
-.menu-nav ul li {
+.txt-nav ul li {
   font-size: 13px;
   padding: 10px 10px;
   text-transform: uppercase;
   color: #b3b3b3;
 }
 
-.menu-nav ul li hr {
+.txt-nav ul li hr {
   margin: 0 auto;
   border-top: 3px solid #141a26;
-}wall
+}
 
-.menu-nav ul li:hover hr{
+.txt-nav ul li:hover hr {
   display: block;
   text-align: center;
   width: 20px;
@@ -251,6 +250,7 @@ hr {
   right: 0;
   opacity: 0;
   transition: .4s ease;
+  height: 178.11px;
 }
 
 .cover:hover .overlay{
